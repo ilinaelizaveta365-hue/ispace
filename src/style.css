@@ -464,6 +464,146 @@ header .head-l ul a {
   font-size: 14px;
 }
 
+#trade {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#trade .kar {
+  display: flex;
+  gap: 35px;
+}
+#trade .kar .ka {
+  width: 296px;
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#trade .kar .ka img {
+  width: 285px;
+  height: 284px;
+}
+#trade .kar .ka a {
+  text-decoration: none;
+  color: black;
+}
+#trade .kar .ka span {
+  color: #e33500;
+}
+#trade .kar .ka .buy {
+  width: 132px;
+  height: 48px;
+  background-color: #0071e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+}
+#trade .kar .ka .buy a {
+  text-decoration: none;
+  color: white;
+}
+
+#learn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+#learn .get {
+  width: 296px;
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#learn .get img {
+  width: 68px;
+  height: 68px;
+}
+#learn .get a {
+  text-decoration: none;
+  color: black;
+}
+#learn .get span {
+  font-size: 25px;
+}
+#learn .get .more {
+  width: 132px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+}
+#learn .get .more a {
+  text-decoration: none;
+  color: #0071e3;
+}
+#learn .get .more i {
+  color: #0071e3;
+}
+
+#ipad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 35px;
+}
+#ipad .all {
+  width: 1038px;
+  height: 479px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+#ipad .all .th {
+  width: 296px;
+  height: 477px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#ipad .all .th img {
+  width: 285px;
+  height: 284px;
+}
+#ipad .all .th a {
+  text-decoration: none;
+  color: black;
+}
+#ipad .all .th span {
+  text-decoration: line-through;
+  color: gray;
+}
+#ipad .all .th .now {
+  width: 123px;
+  height: 48px;
+  background-color: #0071e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+}
+#ipad .all .th .now a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-up {
   width: 40px;
   height: 271px;
