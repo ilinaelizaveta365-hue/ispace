@@ -67,6 +67,7 @@
         display: flex;
         gap: 20px;
         padding-bottom: 40px;
+        padding-left: 50px;
 
         .nec {
             display: flex;
@@ -81,18 +82,25 @@
 
 
             img {
-                width: 223px;
-                height: 193px;
+                width: 197px;
+                height: 182px;
 
             }
 
             p {
                 font-size: 14px;
-                padding-left: 10px;
+                padding-left: 13px;
             }
 
             span {
                 color: #e33500;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 23px;
+                color: black;
+                padding-left: 13px;
             }
         }
     }
@@ -307,6 +315,12 @@
             img {
                 width: 285px;
                 height: 284px;
+                object-fit: cover;
+                transition: 0.5s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
 
             a {
@@ -405,6 +419,12 @@
             img {
                 width: 285px;
                 height: 284px;
+                object-fit: cover;
+                transition: 0.5s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
 
             a {
@@ -494,6 +514,7 @@
     align-items: center;
     gap: 40px;
     padding-top: 35px;
+    padding-bottom: 20px;
 
     .all {
         width: 1038px;
@@ -516,6 +537,12 @@
             img {
                 width: 285px;
                 height: 284px;
+                object-fit: cover;
+                transition: 0.5s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
 
             a {
@@ -547,6 +574,30 @@
     }
 }
 
+#done {
+    width: 100%;
+    padding: 40px;
+    padding-top: 60px;
+    border-top: 1px solid gray;
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    .sum {
+        display: flex;
+        align-items: center;
+
+        a {
+
+            color: black;
+        }
+    }
+}
 
 .nav-up {
     width: 40px;
